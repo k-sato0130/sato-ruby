@@ -11,3 +11,6 @@ p %w(val val2).message #=> "Ruby is Awesome"
 ## eval族
 eval 'p self' #=> main
 eval 'p 1 + 1' #=> 2
+
+p Thread.main #=> ''
+p "Hello World"
