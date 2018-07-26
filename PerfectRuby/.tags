@@ -1,0 +1,24 @@
+Module1	/Users/k-sato/Desktop/Ruby/PerfectRuby/code7.rb	/^module Module1$/;"	module	line:1
+hello	/Users/k-sato/Desktop/Ruby/PerfectRuby/code7.rb	/^  def hello$/;"	method	line:2	class:Module1
+Module2	/Users/k-sato/Desktop/Ruby/PerfectRuby/code7.rb	/^module Module2$/;"	module	line:7
+hello	/Users/k-sato/Desktop/Ruby/PerfectRuby/code7.rb	/^  def hello$/;"	method	line:8	class:Module2
+Module3	/Users/k-sato/Desktop/Ruby/PerfectRuby/code7.rb	/^module Module3$/;"	module	line:13
+hello	/Users/k-sato/Desktop/Ruby/PerfectRuby/code7.rb	/^  def hello$/;"	method	line:14	class:Module3
+Class1	/Users/k-sato/Desktop/Ruby/PerfectRuby/code7.rb	/^class Class1$/;"	class	line:19
+hello	/Users/k-sato/Desktop/Ruby/PerfectRuby/code7.rb	/^  def hello$/;"	method	line:20	class:Class1
+hello	/Users/k-sato/Desktop/Ruby/PerfectRuby/code7.rb	/^def obj1.hello$/;"	singleton method	line:27
+Class2	/Users/k-sato/Desktop/Ruby/PerfectRuby/code7.rb	/^class Class2 < Class1$/;"	class	line:35
+hello	/Users/k-sato/Desktop/Ruby/PerfectRuby/code7.rb	/^  def hello$/;"	method	line:40	class:Class2
+Class1	/Users/k-sato/Desktop/Ruby/PerfectRuby/code13.rb	/^class Class1$/;"	class	line:1
+initialize	/Users/k-sato/Desktop/Ruby/PerfectRuby/code13.rb	/^  def initialize(ins1, ins2, ins3, ins4, ins5)$/;"	method	line:2	class:Class1
+method1	/Users/k-sato/Desktop/Ruby/PerfectRuby/code13.rb	/^  def method1(arg); p arg end$/;"	method	line:10	class:Class1
+method2	/Users/k-sato/Desktop/Ruby/PerfectRuby/code13.rb	/^  def method2; end$/;"	method	line:11	class:Class1
+method3	/Users/k-sato/Desktop/Ruby/PerfectRuby/code13.rb	/^def obj.method3; end$/;"	singleton method	line:15
+Module2	/Users/k-sato/Desktop/Ruby/PerfectRuby/code14.rb	/^module Module2$/;"	module	line:1
+NameSpace	/Users/k-sato/Desktop/Ruby/PerfectRuby/code14.rb	/^module NameSpace$/;"	module	line:4
+Class1	/Users/k-sato/Desktop/Ruby/PerfectRuby/code14.rb	/^  class Class1$/;"	class	line:6	class:NameSpace
+method1	/Users/k-sato/Desktop/Ruby/PerfectRuby/code14.rb	/^      def method1(arg); p arg end$/;"	method	line:15	class:NameSpace.Class1
+method2	/Users/k-sato/Desktop/Ruby/PerfectRuby/code14.rb	/^    def method2; end$/;"	method	line:19	class:NameSpace
+method3	/Users/k-sato/Desktop/Ruby/PerfectRuby/code14.rb	/^    def method3; end$/;"	method	line:22	class:NameSpace
+Module1	/Users/k-sato/Desktop/Ruby/PerfectRuby/code14.rb	/^    module Module1$/;"	module	line:24	class:NameSpace
+method1	/Users/k-sato/Desktop/Ruby/PerfectRuby/code14.rb	/^      def method1; end$/;"	method	line:26	class:NameSpace.Module1

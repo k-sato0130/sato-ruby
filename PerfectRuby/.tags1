@@ -4,3 +4,11 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+Module2	/Users/k-sato/Desktop/Ruby/PerfectRuby/code14.rb	/^module Module2$/;"	module	line:1
+NameSpace	/Users/k-sato/Desktop/Ruby/PerfectRuby/code14.rb	/^module NameSpace$/;"	module	line:4
+Class1	/Users/k-sato/Desktop/Ruby/PerfectRuby/code14.rb	/^  class Class1$/;"	class	line:6	class:NameSpace
+method1	/Users/k-sato/Desktop/Ruby/PerfectRuby/code14.rb	/^      def method1(arg); p arg end$/;"	method	line:15	class:NameSpace.Class1
+method2	/Users/k-sato/Desktop/Ruby/PerfectRuby/code14.rb	/^    def method2; end$/;"	method	line:19	class:NameSpace
+method3	/Users/k-sato/Desktop/Ruby/PerfectRuby/code14.rb	/^    def method3; end$/;"	method	line:22	class:NameSpace
+Module1	/Users/k-sato/Desktop/Ruby/PerfectRuby/code14.rb	/^    module Module1$/;"	module	line:24	class:NameSpace
+method1	/Users/k-sato/Desktop/Ruby/PerfectRuby/code14.rb	/^      def method1; end$/;"	method	line:26	class:NameSpace.Module1
